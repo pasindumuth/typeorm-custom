@@ -114,6 +114,7 @@ class PostgresDriver {
             "geography",
             "cube",
             "ltree",
+            "vector",
         ];
         /**
          * Returns type of upsert supported by driver if any
@@ -134,6 +135,7 @@ class PostgresDriver {
             "bit",
             "varbit",
             "bit varying",
+            "vector",
         ];
         /**
          * Gets list of column data types that support precision by a driver.
